@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Serre Connectée | Météo</title>
+		<link rel="icon" type="image/png" href="/img/logo.png" />
+		<script src="https://kit.fontawesome.com/6a4fe63112.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/meteo.css">
+		<link rel="stylesheet" href="css/footer.css">
+	</head>
+	<body>
+		<div class="header header__article">
+			<div class="header__texture"></div>
+			<div class="header__mask">
+				<svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+					<path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="#fff"></path>
+				</svg>
+			</div>
+			<div class="container">
+				<div class="header__navbar">
+					<div class="header__navbar--logo">
+						<img src="img/logo2.png" alt="Cinque Terre" width="150" height="100">
+					</div>
+					<div class="header__navbar--menu">
+					<a href="index.html" class="header__navbar--menu-link"><i class="fas fa-home"></i> Accueil</a>
+					<a href="contact.php" class="header__navbar--menu-link"><i class="fas fa-phone"></i> Contact</a>
+					<a href="login.php" class="header__navbar--menu-link"><i class="fas fa-user"></i> Login</a>
+					</div>
+					<div class="header__navbar-toggle">
+						<span class="header__navbar-toggle-icons"></span> 
+					</div>
+				</div>
+				<div class="header__slogan">
+					<h1 class="h__slogan--title">Météo</h1>
+					<a href="index.html"class="h__slogan--btn"><i class="fas fa-chevron-left"></i> Retour</a>
+				</div>
+			</div>
+		</div>
+		<div class="article-total">
+			<div class="article__view-container">
+				<div class="premier">
+					<div id="ww_c97a6df68705a" v='1.20' loc='id' a='{"t":"horizontal","lang":"fr","ids":["wl3243"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial"}'><a href="https://weatherwidget.org/fr/" id="ww_c97a6df68705a_u" target="_blank">Widget Météo pour site Web</a> par Weatherwidget.org</div><script async src="https://srv2.weatherwidget.org/js/?id=ww_c97a6df68705a"></script>
+				</div>	
+				<div id="ww_bbe5053f5a5ef" v='1.20' loc='id' a='{"t":"responsive","lang":"fr","ids":[],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"7","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","el_nme":3,"el_cwi":3,"el_ctm":3}'><a href="https://weatherwidget.org/fr/" id="ww_bbe5053f5a5ef_u" target="_blank">Widget Météo pour site Web</a> par Weatherwidget.org</div><script async src="https://srv2.weatherwidget.org/js/?id=ww_bbe5053f5a5ef"></script>
+			</div>
+			<div class="article__view-container2">
+				<iframe src="https://www.meteoblue.com/fr/meteo/cartes/widget?windAnimation=0&windAnimation=1&gust=0&gust=1&satellite=0&satellite=1&cloudsAndPrecipitation=0&cloudsAndPrecipitation=1&temperature=0&temperature=1&sunshine=0&sunshine=1&extremeForecastIndex=0&extremeForecastIndex=1&geoloc=detect&tempunit=C&windunit=km%252Fh&lengthunit=metric&zoom=5&autowidth=auto"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 100%; height: 420px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/fr/meteo/cartes/index?utm_source=weather_widget&utm_medium=linkus&utm_content=map&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"></a></div>	
+			</div>
+		</div>
+		<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>
+		<footer>
+			<div class="footer-content">
+				<h3 class="footer_name">GREENHOUSE</h3>
+				<p>Projet I3</p>
+				<div class="socials">
+					<li><a href="https://www.youtube.com/user/ESIEEAmiens1"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="https://twitter.com/ESIEEAmiens"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/esieeunilasalleamiens/"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.myunilasalleamiens.eu/"><i class="fa fa-graduation-cap"></i></a></li>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>copyright &copy;GREENHOUSE 2022 | designed by <span>Corentin PORET</span></p>
+			</div>
+		</footer>
+	</body>
+</html>
